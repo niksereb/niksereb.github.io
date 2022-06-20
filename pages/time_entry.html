@@ -45,7 +45,7 @@
             console.log(unixTimestamp1);
 
             const Http = new XMLHttpRequest();
-            const url='http://194.113.237.29/db/get_data?bus_id='+bus_id+'&door_id='+door_id+'&start='+unixTimestamp+'&finish='+unixTimestamp1;
+            const url='https://194.113.237.29/db/get_data?bus_id='+bus_id+'&door_id='+door_id+'&start='+unixTimestamp+'&finish='+unixTimestamp1;
             Http.open("GET", url);
             Http.send();
             
